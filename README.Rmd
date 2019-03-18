@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# adeptdata
+
+The goal of `adeptdata` is to host the data used in vignettes for `adept` R package. 
+
+### Installation
+
+```{r, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("martakarass/adeptdata")
+```
+
+### Example 
+
+`acc_running` is a sample raw accelerometry data collected during 25 minutes of an outdoor run. Data were collected at frequency 100 Hz with two ActiGraph GT9X Link sensors located at left hip and left ankle. See `?acc_running` for details. 
+
+```{r}
+library(adeptdata)
+head(acc_running)
+```
+
+
+`stride_template` is a list containing walking stride pattern templates derived from accelerometry data collected at four body locations: left wrist, left hip, left ankle, and right ankle. See `?stride_template` for details. 
+
+```{r fig.width=6, fig.height=3}
+template <- list(stride_template$left_ankle[[2]][1, ],
+                 stride_template$left_ankle[[2]][2, ])
+par(mfrow = c(1,2), cex = 0.7)
+plot(template[[1]], type = "l", xlab = "", ylab = "", main = "Left ankle: template 1")
+plot(template[[2]], type = "l", xlab = "", ylab = "", main = "Left ankle: template 2")
+```
