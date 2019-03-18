@@ -30,6 +30,8 @@ head(acc_running)
 #> 4 -0.191 -1.027 0.109 1.050281 2018-10-25 17:57:30        left_hip
 #> 5 -0.191 -1.016 0.109 1.039528 2018-10-25 17:57:30        left_hip
 #> 6 -0.184 -1.012 0.121 1.035684 2018-10-25 17:57:30        left_hip
+lubridate::tz(acc_running$date_time)
+#> [1] "UTC"
 ```
 
 `stride_template` is a list containing walking stride pattern templates

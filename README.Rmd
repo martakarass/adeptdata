@@ -31,6 +31,7 @@ devtools::install_github("martakarass/adeptdata")
 ```{r}
 library(adeptdata)
 head(acc_running)
+lubridate::tz(acc_running$date_time)
 ```
 
 
