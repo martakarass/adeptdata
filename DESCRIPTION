@@ -8,12 +8,12 @@ Authors@R: c(
   person("Jacek", "Urbanek", role = c("aut"), 
       comment = c(ORCID = "0000-0002-1890-8899"))
   )
-Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Created to host raw accelerometry data sets and their derivatives which are used in corresponding adept R package.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Depends: R (>= 2.10)
 Suggests: 
     spelling
 Language: en-US
