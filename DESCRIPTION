@@ -6,9 +6,13 @@ Authors@R: c(
   person("Marta", "Karas", email = "marta.karass@gmail.com", role = c("aut", "cre"), 
       comment = c(ORCID = "0000-0001-5889-3970")),
   person("Jacek", "Urbanek", role = c("aut"), 
-      comment = c(ORCID = "0000-0002-1890-8899"))
+      comment = c(ORCID = "0000-0002-1890-8899")),
+  person("Jaroslaw", "Harezlak", role = c("aut"), 
+      comment = c(ORCID = "0000-0002-3070-7686")),
+  person("William", "Fadel", role = c("aut"), 
+      comment = c(ORCID = "0000-0002-0292-6734"))
   )
-Description: Created to host raw accelerometry data sets and their derivatives which are used in corresponding adept R package.
+Description: Created to host raw accelerometry data sets and their derivatives which are used in the corresponding 'adept' package.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

@@ -29,7 +29,7 @@ For example,
 stride_template
 }
 \description{
-Walking stride pattern templates derived from accelerometry
+Walking stride pattern templates derived from raw accelerometry
 data collected at four body locations: left wrist, left hip, left ankle,
 and right ankle.
 }
@@ -40,7 +40,7 @@ Stair Climbing, and Driving Using Wearable Accelerometers, sponsored by the Indi
 University CTSI grant and conducted at the Department of Biostatistics,
 Fairbanks School of Public Health at Indiana University. The study was led by Dr.
 Jaroslaw Harezlak, assisted by Drs. William Fadel and Jacek Urbanek.
-It enrolled 32 healthy participants between 23 and 52 years of age.
+Study enrolled 32 healthy participants between 23 and 52 years of age.
 Participants were asked, among others, to perform self-paced, undisturbed,
 outdoor walking on the sidewalk. Accelerometry data were collected
 at four body locations: left wrist, left hip, left ankle,
@@ -51,9 +51,8 @@ To derive empirical stride pattern, firstly, from each body location,
 were manually segmented. Secondly, Vector Magnitude (VM), which is a univariate summary
 of three-dimensional time-series of raw accelerometry data, was computed.
 Lastly, 642 univariate vectors of VM were interpolated to have the same vector length,
-scaled, and clustered into 1-5 clusters via correlation clustering.
-The respective
-cluster means
-were defined to be 1-5 element subpopulation-specific stride templates, respectively.
+scaled, and clustered into 1,2,3,4 and 5 clusters via correlation clustering.
+The vectors obtained as point-wise means within each cluster
+were defined to be subpopulation-specific stride pattern templates, respectively.
 }
 \keyword{datasets}
