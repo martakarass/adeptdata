@@ -13,9 +13,10 @@ package.
 
 ### Installation
 
+Install from CRAN.
+
 ``` r
-# install.packages("devtools")
-devtools::install_github("martakarass/adeptdata")
+install.packages("adeptdata")
 ```
 
 ### Data objects

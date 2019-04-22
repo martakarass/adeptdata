@@ -22,9 +22,10 @@ Package `adeptdata` was created to host raw accelerometry data sets and their de
 
 ### Installation
 
+Install from CRAN. 
+
 ```{r, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("martakarass/adeptdata")
+install.packages("adeptdata")
 ```
 
 ### Data objects
