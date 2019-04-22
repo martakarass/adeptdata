@@ -7,8 +7,9 @@ status](https://www.r-pkg.org/badges/version/adeptdata)](https://cran.r-project.
 
 # adeptdata
 
-The goal of `adeptdata` is to host the data used in vignettes for
-`adept` R package.
+Package `adeptdata` was created to host raw accelerometry data sets and
+their derivatives. Some of them are used in the corresponding `adept`
+package.
 
 ### Installation
 
