@@ -4,7 +4,8 @@
 \name{stride_template}
 \alias{stride_template}
 \title{Walking Stride Pattern Templates}
-\format{A \code{list} with four named elements:
+\format{
+A \code{list} with four named elements:
 \itemize{
   \item \code{left_wrist},
   \item \code{left_hip},
@@ -24,7 +25,8 @@ For example,
   \item \code{stride_template$right_ankle[[5]]} is a \code{5 x 200} \code{matrix}
   of five distinct subpopulation-specific stride templates derived from accelerometry data
   collected at right ankle.
-}}
+}
+}
 \usage{
 stride_template
 }

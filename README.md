@@ -2,7 +2,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/adeptdata)](https://cran.r-project.org/package=adeptdata)
 [![](https://cranlogs.r-pkg.org/badges/grand-total/adeptdata)](https://cran.r-project.org/package=adeptdata)
-
+[![](https://cranlogs.r-pkg.org/badges/last-month/adeptdata)](https://cran.r-project.org/package=adeptdata)
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # adeptdata

@@ -4,7 +4,8 @@
 \name{acc_walking_IU}
 \alias{acc_walking_IU}
 \title{Outdoor Continuous Walking Raw Accelerometry Data}
-\format{A \code{data.frame} with 2590448 observations of 6 variables:
+\format{
+A \code{data.frame} with 2590448 observations of 6 variables:
 \itemize{
   \item \code{subj_id} - study participant ID,
   \item \code{loc_id} - sensor location, one of: \code{"left_wrist"}, \code{"left_hip"}, \code{"left_ankle"}, \code{"right_ankle"},
@@ -12,7 +13,8 @@
   \item \code{x} - acceleration measurement time-series collected from a "x" axis of the sensor accelerometer,
   \item \code{y} - acceleration measurement time-series collected from a "y" axis of the sensor accelerometer,
   \item \code{z} - acceleration measurement time-series collected from a "z" axis of the sensor accelerometer.
-}}
+}
+}
 \usage{
 acc_walking_IU
 }

@@ -4,14 +4,16 @@
 \name{acc_running}
 \alias{acc_running}
 \title{Outdoor Run Raw Accelerometry Data}
-\format{A \code{data.frame} with 300000 observations of 5 variables:
+\format{
+A \code{data.frame} with 300000 observations of 5 variables:
 \itemize{
   \item \code{loc_id} - sensor location, one of: \code{"left_hip"}, \code{"left_ankle"},
   \item \code{date_time} - date and time of acceleration measurement collection stored as \code{POSIXct},
   \item \code{x} - acceleration measurement time-series collected from a "x" axis of the sensor accelerometer,
   \item \code{y} - acceleration measurement time-series collected from a "y" axis of the sensor accelerometer,
   \item \code{z} - acceleration measurement time-series collected from a "z" axis of the sensor accelerometer.
-}}
+}
+}
 \usage{
 acc_running
 }
