@@ -32,9 +32,9 @@ install.packages("adeptdata")
 
 ### Data objects
 
-##### `acc_running` 
+##### Object `acc_running` 
 
-`acc_running` is a sample raw accelerometry data collected during 25 minutes of an outdoor run. Data were collected at frequency 100 Hz with two ActiGraph GT9X Link sensors located at left hip and left ankle. See `?acc_running` for details. 
+The `acc_running` data frame is a sample raw accelerometry data collected during 25 minutes of an outdoor run. Data were collected at frequency 100 Hz with two ActiGraph GT9X Link sensors located at left hip and left ankle. See `?acc_running` for details. 
 
 ```{r}
 library(adeptdata)
@@ -42,17 +42,17 @@ head(acc_running)
 lubridate::tz(acc_running$date_time)
 ```
 
-##### `acc_walking_IU` 
+##### Object `acc_walking_IU` 
 
-`acc_walking_IU`  is a sample of raw accelerometry data collected during outdoor continuous walking from 32 healthy participants between 23 and 52 years of age. Data were collected at frequency 100 Hz simultaneously with four wearable accelerometers located at left wrist, left hip and both ankles. See `?acc_walking_IU` for details. 
+The `acc_walking_IU` data frame is a sample of raw accelerometry data collected during outdoor continuous walking from 32 healthy participants between 23 and 52 years of age. Data were collected at frequency 100 Hz simultaneously with four wearable accelerometers located at left wrist, left hip and both ankles. See `?acc_walking_IU` for details. 
 
 ```{r}
 head(acc_walking_IU)
 ```
 
-##### `stride_template` 
+##### Object `stride_template` 
 
-`stride_template` is a list containing walking stride pattern templates derived from accelerometry data collected at four body locations: left wrist, left hip, left ankle, and right ankle. See `?stride_template` for details. 
+The `stride_template` is a list containing walking stride pattern templates derived from accelerometry data collected at four body locations: left wrist, left hip, left ankle, and right ankle. See `?stride_template` for details. 
 
 ```{r fig.width=10, fig.height=5}
 template <- list(stride_template$left_ankle[[2]][1, ],

@@ -1,7 +1,7 @@
 ## Test environments
-* local OS X install, R 3.5.2
-* ubuntu 14.04 (on travis-ci), R 3.5.2
-* win-builder (devel and release)
+* local R installation, R 4.0.3
+* ubuntu 16.04 (on travis-ci), R 4.0.3
+* win-builder (devel)
 
 ## R CMD check results
 
@@ -9,35 +9,16 @@
 
 * This is a new release.
 
-## Other notes from the Maintainer
+## Other notes from the package author 
 
-Dear Volunteer: thank you so much for your kind work of processing the packages submission! Please find a few notes below. 
+- This is a data set package. 
+- The two data sets in my adeptdata package were both attached to the package with the use of `usethis::use_data()` function with `compress = "xz"` argument.
+- This attaching procedure was mentioned and reviewed during the 1st package submission to CRAN.
+- The current, 2nd submission, has a line `LazyDataCompression: xz` added to DESCRIPTION per explicit instruction from CRAN (per email from Brian D. Ripley on Feb 19, 2021, 5:51 AM ET) 
 
-* This is an auxiliary package to the `adept` package I tried to submit prior to this submission. I was recommended by Uwe Ligges (<ligges at statistik.tu-dortmund.de>; email dated Mar 18, 2018) to create such an auxiliary package dedicated to host data I use in `adept` package.  
+On CRAN upload history: 
 
-### I WILL NOT BE UPDATING THIS PACKAGE in future
+- The package was sent to CRAN at 1st submission given I assured I won't update this unless CRAN has to ask for it. (per email from Uwe Ligges on Mar 30, 2019, 8:47 AM ET). 
+- CRAN asked for alternations on (per email from Brian D. Ripley on Feb 19, 2021, 5:51 AM ET), then archived the package. 
+- CRAN stated "That would suffice" to rectify the archiving (i.e., to restore to CRAN) if a line `LazyDataCompression: xz` added to DESCRIPTION. (Per email from Brian D. Ripley on Mar 24, 2021, 4:22 PM ET) 
 
-Please note I am convinced I WILL NOT BE UPDATING THIS PACKAGE in future. 
-
-### Size of Data directory
-
-Two data set is mostly responsible for the size of Data directory: 
-
-*  `acc_running` - this data contains raw subsecond-level (100 obs. per second) data collected with wearable accelerometer.
-
-    I believe, it is a very rare (if not the only one) kind of a data set to arrive at CRAN. 
-
-*  `acc_walking_IU` - this data contains raw subsecond-level (100 obs. per second) data collected with 
-4 wearable accelerometers from 32 healthy participants between 23 and 52 years of age. 
-Data were collected as a part of a study on Identification of Walking,
-Stair Climbing, and Driving Using Wearable Accelerometers, sponsored by the Indiana
-University CTSI grant. The study was approved by the IRB of Indiana University. 
-
-    As such, `acc_walking_IU` set is a very rare (if not the only one) example of 
-    subsecond accelerometry data set collected from a grant-supported academic study
-    to arrive at CRAN. 
-    
-### Compression of data sets in Data directory
-
-Data sets `acc_running`, `acc_walking_IU` were both attached to the package with the use
-of `usethis::use_data()` funtion with `compress = "xz"` argument. 
