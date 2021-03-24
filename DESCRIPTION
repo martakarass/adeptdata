@@ -1,7 +1,7 @@
 Package: adeptdata
 Type: Package
 Title: Accelerometry Data Sets 
-Version: 1.0.1
+Version: 1.1
 Authors@R: c(
   person("Marta", "Karas", email = "marta.karass@gmail.com", role = c("aut", "cre"), 
       comment = c(ORCID = "0000-0001-5889-3970")),
@@ -16,6 +16,7 @@ Description: Created to host raw accelerometry data sets and their derivatives w
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 Suggests: 
